@@ -1,4 +1,4 @@
-package ru.ifmo.ct;
+package ru.ifmo.ct.orgassistant;
 
 import android.test.ActivityInstrumentationTestCase2;
 
@@ -9,13 +9,13 @@ import android.test.ActivityInstrumentationTestCase2;
  * <p/>
  * To run this test, you can type:
  * adb shell am instrument -w \
- * -e class ru.ifmo.ct.MainActivityTest \
- * ru.ifmo.ct.tests/android.test.InstrumentationTestRunner
+ * -e class ru.ifmo.ct.orgassistant.MainActivityTest \
+ * ru.ifmo.ct.orgassistant.tests/android.test.InstrumentationTestRunner
  */
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
     public MainActivityTest() {
-        super("ru.ifmo.ct", MainActivity.class);
+        super("ru.ifmo.ct.orgassistant", MainActivity.class);
     }
 
 }

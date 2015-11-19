@@ -1,9 +1,9 @@
-package ru.ifmo.ct;
+package ru.ifmo.ct.orgassistant;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity2 extends Activity
+public class MainActivity extends Activity
 {
     /** Called when the activity is first created. */
     @Override

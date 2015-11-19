@@ -1,8 +1,8 @@
 name := "org-assistant";
 
-organization := "ctctct";
+organization := "ct";
 
-organizationName := "ctwhatever";
+organizationName := "ifmo";
 
 version := "0.1.0";
 

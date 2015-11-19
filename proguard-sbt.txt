@@ -43,8 +43,8 @@
     public static ** valueOf(java.lang.String);
 }
 
--keep class * implements android.os.Parcelable {
-  public static final android.os.Parcelable$Creator *;
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator CREATOR;
 }
 
 -keepclassmembers class **.R$* {
@@ -59,4 +59,4 @@
 -keep class android.test.InstrumentationTestRunner { <init>(...); }
 
 # view AndroidManifest.xml #generated:7
--keep class ru.ifmo.ct.MainActivity2 { <init>(...); }
+-keep class ru.ifmo.ct.orgassistant.MainActivity { <init>(...); }
