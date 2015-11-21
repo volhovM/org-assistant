@@ -1,9 +1,9 @@
-name := "org-assistant";
+name := "org-assistant"
 
-organization := "ct";
+organization := "ctddev"
 
-organizationName := "ifmo";
+version := "0.1.0"
 
-version := "0.1.0";
+scalaVersion := "2.11.7"
 
-scalaVersion := "2.11.7";
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.1.5"

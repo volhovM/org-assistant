@@ -1,4 +1,4 @@
-package ru.ifmo.ct.orgassistant;
+package ru.ifmo.ctddev.orgassistant;
 
 import android.test.ActivityInstrumentationTestCase2;
 
